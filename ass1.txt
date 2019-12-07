@@ -1,0 +1,49 @@
+Write a program which will find all such numbers which are divisible by 7 but are not a multiple
+of 5, between 2000 and 3200 (both included). The numbers obtained should be printed in a
+comma-separated sequence on a single line.
+
+
+i= 2000
+for i in range(2000 , 3200):
+  if (i% 7 == 0) and (i%5!= 0):
+    print(i,end=',')
+
+
+**************************************************************************************************************
+Write a Python program to accept the user's first and last name and then getting them printed in
+the the reverse order with a space between first name and last name.
+
+firstname = input("Enter First name: ")
+lastname = input("Enter last name: ")
+print(lastname + " " +firstname)
+
+**************************************************************************************************************
+Write a Python program to find the volume of a sphere with diameter 12 cm.
+Formula: V=4/3 * p * r 3
+
+d=12
+print((4/3)*(22/7)*((d/2)**3))
+
+**************************************************************************************************************
+Create the below pattern using nested for loop in Python.
+
+n=5
+for i in range(0,n):
+  for j in range(0,i + 1):
+    print("* ",end='') 
+  print("\r")
+for i in range (n, 0, -1):
+  for j in range(0,i-1):
+    print("* ",end='')
+  print("\r")
+
+
+**************************************************************************************************************
+Write a Python program to reverse a word after accepting the input from the user.
+
+str1 = input("Enteryour string : ")
+str2 = str1[::-1]
+print(str2)
+
+
+
